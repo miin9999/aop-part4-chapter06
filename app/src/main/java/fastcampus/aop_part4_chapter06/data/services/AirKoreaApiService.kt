@@ -27,8 +27,6 @@ interface AirKoreaApiService {
                 "&returnType=json"+
                 "&dataTerm=DAILY"+
                 "&version=1.3"
-
-
     )
     suspend fun getRealtimeAirQualities(
         @Query("stationName") stationName: String
